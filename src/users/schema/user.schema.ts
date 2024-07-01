@@ -11,7 +11,6 @@ export class User {
 
   @Prop()
   password: string;
-  
 }
 
 export type UserDocument = HydratedDocument<User>;
